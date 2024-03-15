@@ -19,7 +19,6 @@ env_cfg = dict(
     mp_cfg=dict(mp_start_method='fork', opencv_num_threads=0))
 file_client_args = dict(io_backend='disk')
 launcher = 'pytorch'
-load_from = '/mnt/c/mmaction2/work_dirs/swin-tiny-p244-w877_in1k-pre_8xb8-amp-32x2x1-30e_kinetics400-rgb-mamba-6.7_ucf/best_acc_top1_epoch_48.pth'
 log_level = 'INFO'
 log_processor = dict(by_epoch=True, type='LogProcessor', window_size=20)
 magnitude = 9

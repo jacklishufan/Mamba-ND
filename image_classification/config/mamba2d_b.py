@@ -47,7 +47,6 @@ train_dataloader = dict(batch_size=128, dataset=dict(pipeline=train_pipeline))
 val_dataloader = dict(batch_size=256, dataset=dict(pipeline=test_pipeline))
 test_dataloader = val_dataloader
 custom_hooks = [dict(type='EMAHook', momentum=1e-4, priority='ABOVE_NORMAL')]
-load_from = '/home/jacklishufan/mmpretrain/work_dirs/best_accuracy_top1_epoch_198 copy.pth'
 # resume=True
 # model settings
 model = dict(
@@ -110,11 +109,7 @@ optim_wrapper = dict(
             '.A2_log': dict(decay_mult=0.1),
             '.absolute_pos_embed': dict(decay_mult=0.0),
         }))
-# load_from = '/home/jacklishufan/mmpretrain/work_dirs/mamba2d-sch-base-p16_8xb128-coslr-100e_in1k-p4/best_accuracy_top1_epoch_12.pth'
-# resume=True
-#load_from='/home/jacklishufan/mmpretrain/work_dirs/mamba2d-sch-base-p16_8xb128-coslr-100e_in1k/epoch_100 copy.pth'
-#load_from='/home/jacklishufan/mmpretrain/v300.pth'
-# learning rate scheduler
+
 param_scheduler = [
     dict(
         type='LinearLR',
