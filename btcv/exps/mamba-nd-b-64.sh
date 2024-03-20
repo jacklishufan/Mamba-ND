@@ -1,0 +1,1 @@
+python main.py --feature_size=64 --batch_size=1 --logdir=mamba-nd-b-64 --optim_lr=8e-5 --lrschedule=warmup_cosine --infer_overlap=0.5 --save_checkpoint --data_dir=/localhome/jacklishufan/ct/dl/Abdomen/RawData/ --dropout_rate 0.25 --batch_size 2 --use_mamba --hidden_size 768
