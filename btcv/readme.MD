@@ -17,10 +17,10 @@ Please find the BTCV dataset setup instructions from UNETR repor at this [Link](
 Checkpoints available at
 | Syntax      | Feature Size |  Dice         | Weight |
 | ----------- | ----------- |  ----------- |--------| 
-| Mamba2D-S/16 |32|  83.1  |   [weight](https://huggingface.co/jacklishufan/Mamba-ND/blob/main/btcv/mamband-s.pt) |
-| Mamba2D-S+/16 |32|  83.9  |   [weight](https://huggingface.co/jacklishufan/Mamba-ND/blob/main/btcv/mamband-s_plus.pt) |
-| Mamba2D-B/16 |32|  82.7  |   [weight](https://huggingface.co/jacklishufan/Mamba-ND/blob/main/btcv/mamband-b-32.pt) |
-| Mamba2D-B/16 |64|  84.7  |   [weight](https://huggingface.co/jacklishufan/Mamba-ND/blob/main/btcv/mamband-b-64.pt) |
+| Mamba3D-S/16 |32|  83.1  |   [weight](https://huggingface.co/jacklishufan/Mamba-ND/blob/main/btcv/mamband-s.pt) |
+| Mamba3D-S+/16 |32|  83.9  |   [weight](https://huggingface.co/jacklishufan/Mamba-ND/blob/main/btcv/mamband-s_plus.pt) |
+| Mamba3D-B/16 |32|  82.7  |   [weight](https://huggingface.co/jacklishufan/Mamba-ND/blob/main/btcv/mamband-b-32.pt) |
+| Mamba3D-B/16 |64|  84.7  |   [weight](https://huggingface.co/jacklishufan/Mamba-ND/blob/main/btcv/mamband-b-64.pt) |
 
 ## Training
 ```
