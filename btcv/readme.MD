@@ -15,7 +15,7 @@ Please find the BTCV dataset setup instructions from UNETR repor at this [Link](
 
 
 Checkpoints available at
-| Syntax      | Feature Size |  Acc         | Weight |
+| Syntax      | Feature Size |  Dice         | Weight |
 | ----------- | ----------- |  ----------- |--------| 
 | Mamba2D-S/16 |32|  83.1  |   [weight](https://huggingface.co/jacklishufan/Mamba-ND/blob/main/btcv/mamband-s.pt) |
 | Mamba2D-S+/16 |32|  83.9  |   [weight](https://huggingface.co/jacklishufan/Mamba-ND/blob/main/btcv/mamband-s_plus.pt) |
