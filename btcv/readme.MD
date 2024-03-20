@@ -23,9 +23,7 @@ Checkpoints available at
 | Mamba3D-B/16 |64|  84.7  |   [weight](https://huggingface.co/jacklishufan/Mamba-ND/blob/main/btcv/mamband-b-64.pt) |
 
 ## Training
-```
-./tools/dist_test.sh <config> <ckpt_path> <num gpus>
-```
+See `exps` folder for training scripts
 
 ## Evaluation
 
