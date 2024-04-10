@@ -41,9 +41,9 @@ For image classification, [mmpretrain](https://mmpretrain.readthedocs.io/en/late
 
 Please see refer to the following instructions for each task:
 
-(Vmage classification)[image_classification/readme.MD]
-(Video classification)[video_classification/readme.MD]
-(3D segmentation)[btcv/readme.MD]
+[Image classification](image_classification/readme.MD)
+[Video classification](video_classification/readme.MD)
+[3D segmentation](btcv/readme.MD)
 
 ## Citation
 ```
