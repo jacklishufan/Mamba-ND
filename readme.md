@@ -15,8 +15,10 @@ Checkpoints available at
 
 | Syntax      | Acc | Weight |
 | ----------- | ----------- | ----------- |
-| UCF-101    | 89.6       |[weight](https://huggingface.co/jacklishufan/Mamba-ND/blob/main/video/ucf101/ucf101.pth)
-| HMDB-51 |  60.9  | [weight](https://huggingface.co/jacklishufan/Mamba-ND/blob/main/video/hmdb51/hmdb51.pth)
+| UCF-101 (Scratch)  | 89.6       |[weight](https://huggingface.co/jacklishufan/Mamba-ND/blob/main/video/ucf101/ucf101.pth)
+| HMDB-51 (Scratch)  |  60.9  | [weight](https://huggingface.co/jacklishufan/Mamba-ND/blob/main/video/hmdb51/hmdb51.pth)
+| K400 |  81.9  | [weight](https://huggingface.co/jacklishufan/Mamba-ND/tree/main/k400) |
+
 
 ### 3D Segmentation
 | Syntax      | Feature Size |  Dice         | Weight |
@@ -43,7 +45,9 @@ Please see refer to the following instructions for each task:
 
 [Image classification](image_classification/readme.MD)
 [Video classification](video_classification/readme.MD)
+[Video classification (K400 Pretraining)](video_pretraining/readme.MD)
 [3D segmentation](btcv/readme.MD)
+
 
 ## Citation
 ```
