@@ -1,5 +1,9 @@
 # Ofiicial Implementation for Mamba-ND: Selective State Space Modeling for Multi-Dimensional Data
 
+## Updates
+- Jul 1: Our paper was accepted at ECCV 2024. We also released K400 results and checkpoints.
+
+
 [Paper](https://arxiv.org/abs/2402.05892)
 
 ## Model Zoo
